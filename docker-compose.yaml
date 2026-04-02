@@ -1,7 +1,7 @@
 services:
 
     kokoro:
-        image: ghcr.io/remsky/kokoro-fastapi-cpu:latest   
+        image: ghcr.io/remsky/kokoro-fastapi-cpu:latest-amd64  
         container_name: kokoro
         restart: unless-stopped
         ports:
